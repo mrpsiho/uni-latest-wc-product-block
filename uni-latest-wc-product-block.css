@@ -1,0 +1,73 @@
+/**
+ Controls related CSS
+ */
+.uniLwpBlockControls__item {
+    padding: 20px;
+}
+
+/**
+ Block related CSS
+ */
+.uniLwpBlockLatestProductsGrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+.uniLwpBlockLatestProductsGrid__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.uniLwpBlockLatestProductsGrid__itemSaleTag {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 3px 5px;
+    display: inline-flex;
+    background-color: black;
+    color: white;
+}
+
+.uniLwpBlockLatestProductsGrid__itemPicture {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.uniLwpBlockLatestProductsGrid__itemPicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.uniLwpBlockLatestProductsGrid__itemTitle {
+    display: flex;
+    justify-items: center;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+.uniLwpBlockLatestProductsGrid__itemPrice {
+    display: flex;
+    justify-items: center;
+    margin: 5px 20px;
+}
+
+.uniLwpBlockLatestProductsGrid__itemPrice span.amount {
+    color: inherit;
+}
+
+.uniLwpBlockLatestProductsGrid__itemPrice span.amount bdi {
+    color: inherit;
+}
+
+.uniLwpBlockLatestProductsGrid__itemBtn {
+    display: flex;
+    justify-items: center;
+    margin-top: auto;
+}
